@@ -32,7 +32,7 @@ class ServiceProvider extends BaseServiceProvider {
 	public function register()
 	{
 		$this->app->singleton('breadcrumbs',function($app) {
-			$breadcrumbs = $this->app->make('DaveJamesMiller\Breadcrumbs\Manager');
+			$breadcrumbs = $this->app->make('Wiidoo\Breadcrumbs\Manager');
 
 			$viewPath = __DIR__ . '/../views/';
 

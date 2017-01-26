@@ -1,4 +1,4 @@
-<?php namespace DaveJamesMiller\Breadcrumbs;
+<?php namespace Wiidoo\Breadcrumbs;
 
 use Illuminate\Contracts\Routing\Registrar as Router;
 
